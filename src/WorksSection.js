@@ -3,7 +3,7 @@ import React from 'react'
 import WorksTable from './WorksTable'
 
 const worksList = [
-  {title: 'SugoiLTTimer',url:'https://github.com/uutarou10/SugoiLTTimer',description:'はじめてelectronで作ったアプリ。LTイベント用タイマー。同じネットワーク上のPCから遠隔でコントロールできる機能付き。'}
+  {title: 'SugoiLTTimer',url:'https://github.com/uutarou10/SugoiLTTimer',description:'はじめてelectronで作ったアプリ。LTイベント用タイマー。同じネットワーク上のPCから遠隔でコントロールできる機能付き。',techs:['Electron','Node.js','Socket.io']}
 ];
 
 const WorksSection = () => {

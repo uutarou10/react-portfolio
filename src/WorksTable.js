@@ -11,7 +11,13 @@ const WorksTable = (props) => {
               <td>{item.description}</td>
             </tr>
             <tr>
-              <td>hogehoge</td>
+              <td>
+                <ul>
+                  {item.techs.map((tech) => {
+                    return <li>{tech}</li> 
+                  })}
+                </ul>
+              </td>
             </tr>
           </tbody>
         );
