@@ -12,7 +12,12 @@ const list = [
 ];
 
 const AboutSection = () => {
-  return <Table list={list} />
+  return (
+    <div id="AboutSection">
+      <h2>About me</h2>
+      <Table list={list} />
+    </div>
+  );
 }
 
 export default AboutSection;
